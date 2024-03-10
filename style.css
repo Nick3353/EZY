@@ -165,7 +165,7 @@ span i {
     }
 
     .dot{
-        margin-left: 40px;
+        margin-left: -40px;
     }
 
 button {
