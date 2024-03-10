@@ -163,6 +163,17 @@ span i {
     #new{
         margin-left: 20px;
     }
+
+button {
+    width: 270px;
+}
+
+.log_input{
+    height: 60px;
+    width: 270px;
+}
+
+
 }
 
 /* === sign in page ends */
