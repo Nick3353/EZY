@@ -165,12 +165,13 @@ span i {
     }
 
 button {
-    width: 270px;
+    width: 290px;
+    margin-left: 20px;
 }
 
 .log_input{
     height: 60px;
-    width: 270px;
+    width: 290px;
     margin-left: 20px;
 }
 
