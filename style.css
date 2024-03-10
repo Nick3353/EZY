@@ -164,6 +164,10 @@ span i {
         margin-left: 80px;
     }
 
+    .dot{
+        margin-left: 40px;
+    }
+
 button {
     width: 310px;
     margin-left: 20px;
