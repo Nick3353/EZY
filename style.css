@@ -1,0 +1,163 @@
+*{
+    font-size: 18px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/*.splash__container{
+    height: 80dvh;
+    width: 80dvw;
+   
+    
+}
+
+*/
+
+.splash__screen{
+    
+    
+    margin-left: 100px;
+    height: 700px;
+    width: 1400px;
+}
+
+/* === tablets ==== for splash screen */
+@media (max-width: 769px){
+
+    .splash__screen{
+    
+        margin-top: 50%;
+        
+        margin-left: 80px;
+        height: 700px;
+        width: 1000px;
+    }
+}
+
+
+
+
+/* === smaller devices for splash screen */
+@media (max-width: 465px){
+   
+    .splash__screen{
+    margin-top: 70%;
+}
+}
+
+
+/* === sign in page begins ===*/
+
+.logo__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__container img{
+    width: 500px;
+    height: 170px;
+
+}
+
+.form__container{
+    background: #0099ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dwh;
+  
+}
+
+.form{
+    margin-top: 100px;
+}
+
+h2,h3,h4{
+    color: #fff;
+   
+}
+
+h2{
+    margin-left: 80px;
+    font-weight: 600;
+    font-family: poppins;
+    font-size: 30px;
+}
+
+h3{
+    margin-left: 60px;  
+}
+
+h4{
+    margin-left: 40px;     
+}
+
+h3,h4{
+    margin-bottom: 4px;
+}
+
+
+.log_input{
+    height: 60px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+::placeholder{
+    padding: 20px;
+    color: #78898b;
+}
+
+h5{
+    color: #f5f5f5;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+button{
+    height: 60px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #fad309;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+button a{
+    color: #fff ;
+    
+}
+
+h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+h4 a{
+    color: #f5f5f5;
+}
+
+span i {
+    margin-left: -10px;
+    position: absolute;
+    transform: translateY(100%);
+    transform: translateX(-100%);
+    padding-top: 20px;
+}
+
+/* === sign in page ends */
+
+#new{
+    margin-left: 0;
+}
