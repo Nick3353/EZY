@@ -156,6 +156,15 @@ span i {
     padding-top: 20px;
 }
 
+
+/* === smaller devices for splash screen {Sigin and sign up*/
+@media (max-width: 465px){
+   
+    #new{
+        margin-left: 20px;
+    }
+}
+
 /* === sign in page ends */
 
 #new{
